@@ -117,6 +117,7 @@ export const Slider1: FC = () => {
 This is a wide grown proof on concept that has not all the super cool features we implemented with SlideVision (https://slidevision.io/en/help-center-home/) but it has the basic concepts and some nice to have features.
 
 Here is a incomplete list of things that are missing:
+  * [ ] decide if to use flowbite theme or tailwind.config and do it consequent
   * [ ] support swipe/touch
   * [ ] port SlideVision plugins
   * [ ] switch internally to EventManager
