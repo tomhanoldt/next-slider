@@ -7,7 +7,7 @@ Sliders are online questionnaires that are heavily used from the Lead-Gen/Funnel
 
 In my second job (2012) I worked for [Aroundhome](https://www.aroundhome.com) (former Käuferportal) where I implemented a first version of a responsive Slider for them - and an enhanced version - and an enhanced super version.
 
-During my self employment later - again - some customers wanted me to implement Slider for them and 2 years later we founded the SlideVision GmbH and sold Sliders all around (we had Enpal, Personio and elearnio as some of our biggest customers).
+During my self employment later - again - some customers wanted me to implement Slider for them and 2 years later we founded the [SlideVision GmbH](https://slidevision.io/) and sold Sliders all around (we had Enpal, Personio and elearnio as some of our biggest customers).
 
 I saw a lot of Sliders during my work live, CSS only once, hacky spaghetti once, non working once, [flexslider](http://flexslider.woothemes.com/) based once ...but I never saw a really smooth react based one.
 

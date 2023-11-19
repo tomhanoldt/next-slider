@@ -9,7 +9,7 @@ import { useSessionStore } from '../data'
 export const ConfirmationSlide: FC<SlideProps> = props => {
   const { session } = useSessionStore()
 
-  const subject = encodeURIComponent('SLider-1 Lead-Submission')
+  const subject = encodeURIComponent('Slider-1 Lead-Submission')
   const body = encodeURIComponent(`
   Usage: ${(session.sliderUsage || []).join(', ')}
   Email: ${session.email}
