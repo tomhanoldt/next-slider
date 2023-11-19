@@ -10,6 +10,7 @@
     "build": "yarn lint:tsc && vite build",
     "preview": "vite preview",
     "build:serve": "npx http-server dist/ -a 0.0.0.0 -p 3001 -o",
+    "build:demo": "rm -rf ./docs/* && rm -rf ./dist/* && yarn build && cp -r ./dist/* ./docs",
     "lint": "yarn lint:eslint && yarn lint:tsc",
     "lint:fix": "yarn lint:eslint --fix && yarn lint:tsc",
     "lint:eslint": "eslint 'src/**/*.{ts,tsx,js}'",
