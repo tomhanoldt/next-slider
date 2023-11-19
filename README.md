@@ -1,5 +1,7 @@
 # My "Last-SLider"
 
+See it in action: [Demo](https://tomhanoldt.github.io/next-slider/)
+
 ## Preface
 I'm [Tom Hanoldt](https://www.tomhanoldt.info) and I build Sliders since 10 years.
 
