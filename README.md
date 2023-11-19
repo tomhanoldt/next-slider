@@ -31,7 +31,7 @@ So we have here:
 git clone ...
 cd ..
 yarn
-nvm use 20.1
+nvm use 20
 yarn dev
 ```
 
