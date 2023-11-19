@@ -32,10 +32,10 @@ So we have here:
 
 ## Setup
 ```
-git clone ...
-cd ..
-yarn
+git clone git@github.com:tomhanoldt/next-slider.git
+cd next-slider
 nvm use 20
+yarn
 yarn dev
 ```
 
