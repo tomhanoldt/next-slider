@@ -2,6 +2,8 @@
 
 See it in action: [Demo](https://tomhanoldt.github.io/next-slider/)
 
+![targetgroups](https://github.com/slidevision/sl8v-slider-api/blob/master/docs/targetgroups.png)
+
 ## Preface
 I'm [Tom Hanoldt](https://www.tomhanoldt.info) and I build Sliders since 10 years.
 
@@ -115,10 +117,13 @@ export const Slider1: FC = () => {
 This is a wide grown proof on concept that has not all the super cool features we implemented with SlideVision (https://slidevision.io/en/help-center-home/) but it has the basic concepts and some nice to have features.
 
 Here is a incomplete list of things that are missing:
-  * [ ] read start param from url
+  * [ ] support swipe/touch
+  * [ ] port SlideVision plugins
   * [ ] switch internally to EventManager
     * [ ] implement plugins for navigation etc
-  * [ ] port SlideVision plugins
   * [ ] write exporter script to single js file that injects its self into a page
+  * [ ] write tests
+  * [ ] split up next-slider to independent repo and publish via npm
+  * [ ] implement SLideVision api (https://github.com/slidevision/sl8v-slider-api)
 
 
