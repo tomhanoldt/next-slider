@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@modular-forms/preact": "^0.7.0",
+    "@preact/signals": "^1.2.1",
     "flowbite-react": "^0.6.4",
     "preact": "^10.13",
     "react": "npm:@preact/compat",
