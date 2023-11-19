@@ -80,7 +80,7 @@ export const ProgressBar: FC<ProgressBarProps> = ({
 
       setTimeout(() => {
         setDisplayState('visible')
-      }, 1000)
+      }, animationDurationShowHideMs)
     }
 
     if (!shouldShowNow && displayState == 'visible') {
@@ -88,8 +88,9 @@ export const ProgressBar: FC<ProgressBarProps> = ({
 
       setTimeout(() => {
         setDisplayState('hidden')
-      }, 1000)
+      }, animationDurationShowHideMs)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [displayState, progressState, shouldShow])
 
   dispatchAnimationStates()
