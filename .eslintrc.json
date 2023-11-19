@@ -1,0 +1,67 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier", "unused-imports", "import", "jsx-a11y"],
+  "extends": [
+    "preact",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "ignorePatterns": ["**/flowbite/**"],
+  "overrides": [
+    {
+      "files": ["./src/**/*.ts", "./src/**/*.tsx"],
+      "rules": {
+        "@next/next/no-html-link-for-pages": "off",
+        "prettier/prettier": "error",
+        "import/no-anonymous-default-export": "error",
+        "import/no-duplicates": "off",
+        "no-duplicate-imports": "off",
+        "unused-imports/no-unused-imports": "error",
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/no-empty-interface": "warn",
+        "@typescript-eslint/ban-types": "error",
+        "@typescript-eslint/no-var-requires": "error",
+        //  disabled in favor of no-unused-vars rule in next line
+        "@typescript-eslint/no-unused-vars": "off",
+        "no-unused-vars": [
+          "error",
+          {
+            "vars": "all",
+            "args": "after-used",
+            "ignoreRestSiblings": true,
+            "caughtErrors": "none",
+            "argsIgnorePattern": "^_",
+            "varsIgnorePattern": "^_",
+            "caughtErrorsIgnorePattern": "^_"
+          }
+        ],
+        "import/order": [
+          "warn",
+          {
+            "groups": ["builtin", "external", "internal", "sibling"],
+            "pathGroups": [
+              {
+                "pattern": "{app,lib,pages}",
+                "group": "internal"
+              },
+              {
+                "pattern": "{app,lib,pages,styles}/**",
+                "group": "internal"
+              }
+            ],
+            "pathGroupsExcludedImportTypes": ["builtin"],
+            "newlines-between": "always",
+            "warnOnUnassignedImports": true
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
+    }
+  ]
+}

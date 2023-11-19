@@ -1,0 +1,5 @@
+export * from './1_WelcomeSlide'
+export * from './2_QuestionSlide'
+export * from './3_ContactSlide'
+export * from './4_SubmissionSlide'
+export * from './5_ConfirmationSlide'

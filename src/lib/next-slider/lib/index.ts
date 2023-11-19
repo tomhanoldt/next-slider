@@ -1,0 +1,6 @@
+export * from './Animation'
+export * from './EventManager'
+export * from './Locking'
+export * from './Logger'
+export * from './PluginLoader'
+export * from './SlideDecorator'
