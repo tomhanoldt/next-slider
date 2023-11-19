@@ -12,6 +12,7 @@ import {
   useProgress,
 } from '@lib/next-slider'
 import { Progress } from 'flowbite-react'
+import { twMerge } from 'tailwind-merge'
 
 import { ProgressProps } from './types'
 
@@ -48,7 +49,6 @@ export type ProgressBarProps = PropsWithChildren &
   HTMLProps<HTMLDivElement> & {
     childrenPosition?: 'top' | 'bottom'
     shouldShow?: (state: ProgressState) => boolean
-    className?: string
     visible?: boolean
     animationDurationProgressMs?: number
     animationDurationShowHideMs?: number
@@ -100,7 +100,12 @@ export const ProgressBar: FC<ProgressBarProps> = ({
   return (
     <ShowHideAnimation
       {...rest}
-      className={`css-animation w-full text-center display-state-${displayState} ${className}`}
+      className={
+        (twMerge(
+          `css-animation w-full text-center display-state-${displayState}`,
+        ),
+        className)
+      }
       animationDurationMs={animationDurationShowHideMs}
     >
       {childrenPosition == 'top' && children}
