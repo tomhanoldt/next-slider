@@ -5,7 +5,7 @@ See it in action: [Demo](https://tomhanoldt.github.io/next-slider/)
 ![targetgroups](https://github.com/slidevision/sl8v-slider-api/blob/master/docs/targetgroups.png)
 
 ## Preface
-I'm [Tom Hanoldt](https://www.tomhanoldt.info) and I build Sliders since 10 years.
+I'm [Tom Hanoldt](https://www.tomhanoldt.info) and I build Sliders for 10 years.
 
 Sliders are online questionnaires that are heavily used from the Lead-Gen/Funnel-Marketing industry to collect the first interest of a customer and enrich it with information about the lead.
 
@@ -125,6 +125,6 @@ Here is a incomplete list of things that are missing:
   * [ ] write exporter script to single js file that injects its self into a page
   * [ ] write tests
   * [ ] split up next-slider to independent repo and publish via npm
-  * [ ] implement SLideVision api (https://github.com/slidevision/sl8v-slider-api)
+  * [ ] implement SlideVision api (https://github.com/slidevision/sl8v-slider-api)
 
 
