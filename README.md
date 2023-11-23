@@ -1,4 +1,4 @@
-# My "Last-SLider"
+# My "Last-Slider"
 
 See it in action: [Demo](https://tomhanoldt.github.io/next-slider/)
 
