@@ -5,20 +5,20 @@ See it in action: [Demo](https://tomhanoldt.github.io/next-slider/)
 ![targetgroups](https://github.com/slidevision/sl8v-slider-api/blob/master/docs/targetgroups.png)
 
 ## Preface
-I'm [Tom Hanoldt](https://www.tomhanoldt.info) and I build Sliders for 10 years.
+I'm [Tom Hanoldt](https://www.tomhanoldt.info) and I have been building sliders for 10 years.
 
 Sliders are online questionnaires that are heavily used from the Lead-Gen/Funnel-Marketing industry to collect the first interest of a customer and enrich it with information about the lead.
 
-In my second job (2012) I worked for [Aroundhome](https://www.aroundhome.com) (former Käuferportal) where I implemented a first version of a responsive Slider for them - and an enhanced version - and an enhanced super version.
+In my second job (2012) I worked for [Aroundhome](https://www.aroundhome.de) (former Käuferportal) where I implemented a first version of a responsive slider for them - and an enhanced version - and an enhanced super version.
 
-During my self employment later - again - some customers wanted me to implement Slider for them and 2 years later we founded the [SlideVision GmbH](https://slidevision.io/) and sold Sliders all around (we had Enpal, Personio and elearnio as some of our biggest customers).
+Later, during my self-employment - again - some customers wanted me to implement sliders for them. Finally, 2 years later, the [SlideVision GmbH](https://slidevision.io/) was founded (Enpal, Personio and elearnio as some of our biggest customers).
 
-I saw a lot of Sliders during my work live, CSS only once, hacky spaghetti once, non working once, [flexslider](http://flexslider.woothemes.com/) based once ...but I never saw a really smooth react based one.
+I have seen many sliders during my working life - hacky spaghetti sliders, non working sliders, sliders realized with css-only, flexslider based sliders, … - but I’ve never seen a smooth slider based on react.
 
-Now - as we are shuting down the SlideVision company - there is one last thing left for me todo in order to finish the Slider-Story in my live: **My "Last-Slider"** the **Next-Slider**.
+Now - that we are closing the SlideVision Company - there is only one last thing left for me to do in oder to finish the slider-story in my life:**My "Last-Slider"** -> the **Next-Slider**.
 
 ## Technology
-I choosed a balance between comfort and final bundle size - this ended up in a around 100kb gzipped result of a half-full-flagged slider.
+I chose a balance between comfort and final bundle size - this ended up in a around 100kb gzipped result of a half-full-flagged slider.
 
 So we have here:
   - [preact as react compatible base](https://preactjs.com/) (3kb + 18kb compat)
